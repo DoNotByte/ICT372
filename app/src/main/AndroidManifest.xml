@@ -12,13 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ICT372">
         <activity
-            android:name=".MainActivity"
+            android:name=".RegAct"
+            android:exported="false" />
+        <activity
+            android:name=".OrdHistoryAct"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutAct"
+            android:exported="false" />
+        <activity
+            android:name=".CartAct"
+            android:exported="false" />
+        <activity
+            android:name=".SearchAct"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailsAct"
+            android:exported="false" />
+        <activity
+            android:name=".HomeAct"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAct"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+            </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
         </activity>
     </application>
 
